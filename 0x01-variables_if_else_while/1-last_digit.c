@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main function
- *
- * Return: Always (Success)
- */
+* main function
+*
+* Return: Always (Success)
+*/
 int main(void)
 {
 int n, lastdigit;
@@ -27,4 +26,5 @@ printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastdigit);
 }
 return (0);
 }
+
 
