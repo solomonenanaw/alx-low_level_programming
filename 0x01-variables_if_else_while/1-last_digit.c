@@ -4,7 +4,7 @@
 /* more headers goes there */
 /**
  * main - Entry point 
- * Description:prints the last digit of a number   
+ *
  * Return: Always (Success)
  */
 /* betty style doc for function main goes there */
