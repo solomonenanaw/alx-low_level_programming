@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main Entry
+ * main - prints small letter
  *
  * Return: Always (Success)
  */
