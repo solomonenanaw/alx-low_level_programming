@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - print integer base ten number
  *
  * Return: Always (Success)
  */
