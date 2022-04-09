@@ -16,7 +16,8 @@ int base = 10;
 int findnumberOfDigits
 findNumberOfDigits(n, base);
 n =findNumberOfDigits;
-print (n);
+printf(n);
+printf('\n');
 n++;
 return (0);
 
