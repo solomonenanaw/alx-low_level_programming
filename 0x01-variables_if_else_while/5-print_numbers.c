@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints base 10 number
+ * main - prints base ten number
  *
  * Return: Always (Success)
  */
@@ -11,10 +11,12 @@
 int main(void)
 
 {
-for (int i = 0; i > 0; i++)
+char i;
+for (i = '0'; i < '9'; i++)
 {
-	printf(i);
+printf(i);
 }
-return (0);
+printf('\n');
 
+return (0);
 }
