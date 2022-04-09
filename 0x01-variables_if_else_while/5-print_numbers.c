@@ -7,16 +7,14 @@
  *
  * Return: Always (Success)
  */
-
 int main(void)
 
 {
-char i;
-for (i = '0'; i < '9'; i++)
+char n;
+for (n = '0'; n <= '9'; n++)
 {
-printf(i);
+putchar(n);
 }
-printf('\n');
-
+putchar('\n');
 return (0);
 }
