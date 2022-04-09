@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - prints base 10 number
  *
  * Return: Always (Success)
  */
@@ -13,7 +13,7 @@ int main(void)
 {
 long n = 0;
 int base = 10;
-findNumberOfDigits(n, base);
+printf (findNumberOfDigits(n, base));
 n++;
 return (0);
 
