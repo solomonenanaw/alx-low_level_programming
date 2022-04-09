@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main prints both small and capital letter
  *
  * Return: Always (Success)
  */
@@ -17,10 +17,11 @@ putchar(i);
 }
 for (I = 'A'; I <= 'Z'; I++)
 {
-putchar(i);
+putchar(I);
 }
-
 putchar('\n'); 
 
 return (0);
 }
+
+
