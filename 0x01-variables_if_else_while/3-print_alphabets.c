@@ -18,11 +18,8 @@ for (I = 'A'; I <= 'Z'; I++)
 {
 putchar(I);
 }
-
 putchar('\n'); 
-
 return (0);
-
 }
 
 
