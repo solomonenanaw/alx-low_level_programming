@@ -14,7 +14,9 @@ int main(void)
 long n = 0;
 int base = 10;
 int findnumberOfDigits
-printf (findNumberOfDigits(n, base));
+findNumberOfDigits(n, base);
+n =findNumberOfDigits;
+print (n);
 n++;
 return (0);
 
