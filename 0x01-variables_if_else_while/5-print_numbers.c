@@ -13,6 +13,7 @@ int main(void)
 {
 long n = 0;
 int base = 10;
+int findnumberOfDigits
 printf (findNumberOfDigits(n, base));
 n++;
 return (0);
