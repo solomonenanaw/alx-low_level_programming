@@ -11,14 +11,10 @@
 int main(void)
 
 {
-long n = 0;
-int base = 10;
-int findnumberOfDigits
-findNumberOfDigits(n, base);
-n =findNumberOfDigits;
-printf(n);
-printf('\n');
-n++;
+for (int i = 0; i > 0; i++)
+{
+	printf(i);
+}
 return (0);
 
 }
