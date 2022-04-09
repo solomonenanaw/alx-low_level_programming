@@ -17,10 +17,10 @@ putchar(i);
 }
 for (I = 'A'; I <= 'Z'; I++)
 {
-putchar(I);
+putchar(i);
 }
 
-putchar('/n'); 
+putchar('\n'); 
 
 return (0);
 }
