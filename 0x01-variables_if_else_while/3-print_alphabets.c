@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main
  *
@@ -10,14 +11,15 @@ int main(void)
 {
 char i;
 char I;
-for (i ='a'; i <= 'z'; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-for (I ='A'; I <= 'Z'; I++)
+for (I = 'A'; I <= 'Z'; I++)
 {
 putchar(I);
 }
+
 putchar('/n'); 
 
 return (0);
