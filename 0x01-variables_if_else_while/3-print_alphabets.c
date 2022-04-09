@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main prints both small and capital letter
+ * main -  prints both small and capital letter
  *
  * Return: Always (Success)
  */
