@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main()
+/**
+ * main - Entry point for comparision
+ *
+ * Return: success 
+ */
+int main(void)
 {
 int i, j, k;
 int arr[3];
@@ -22,4 +27,5 @@ printf("[%d %d %d]\n", arr[i], arr[j], arr[k]);
 }
 }
 }
+return (0);
 }
