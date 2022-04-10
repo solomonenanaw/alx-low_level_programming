@@ -2,7 +2,7 @@
 /**
  * main - Entry point for comparision
  *
- * Return: success 
+ * Return:succes 
  */
 int main(void)
 {
@@ -21,7 +21,8 @@ for (j = 0; j < 3; j++)
 for (k = 0; k < 3; k++)
 {
 if (i != j && j != k && k != i)
-{                   
+{         
+
 printf("[%d %d %d]\n", arr[i], arr[j], arr[k]);
 }
 }
