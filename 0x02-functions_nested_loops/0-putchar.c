@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success.
- * On error, - is returned, and errno is set appropriately.
+ * main-main block
+ * descriptin: On success.
+ * Return - this program returns zero.
  */
 int main(void)
 {
+
 _putchar('_');
 _putchar('p');
 _putchar('u'); 
