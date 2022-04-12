@@ -4,12 +4,11 @@
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success.
+ * On error, - is returned, and errno is set appropriately.
  */
 int main(void)
 {
- _putchar(char c)
 _putchar('_');
 _putchar('p');
 _putchar('u'); 
@@ -19,5 +18,5 @@ _putchar('h');
 _putchar('a'); 
 _putchar('r'); 
 _putchar('\n');
-retun (0);
+return (0);
 }
