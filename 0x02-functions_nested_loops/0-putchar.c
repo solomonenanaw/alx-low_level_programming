@@ -1,6 +1,7 @@
-#include "main.h"
-int main()                                                                                                            
-{                                                                                                                         
-char _putchar(char c)  
-return (0); 
-} 
+#include<stdio.h>
+#include<stdlib.h>
+int _putchar(char c)
+{
+_putchar(last_digit + '0');
+return (write(1, &c, 1));
+}
