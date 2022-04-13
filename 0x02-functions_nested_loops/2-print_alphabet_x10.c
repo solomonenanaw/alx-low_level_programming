@@ -1,0 +1,18 @@
+#include"main.h"
+
+/**
+ * print_alphabet - prints teen times alphabet
+ */
+
+void print_alphabet_x10(void)
+{
+char letter;
+int counter = 0;
+
+while (couter++ <= 9)
+{
+for (letter = 'a' ; letter <= 'z' ; letter++)
+_putchar(letter);
+_putchar('\n');
+}
+}
