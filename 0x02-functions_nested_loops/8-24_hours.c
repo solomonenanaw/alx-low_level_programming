@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * jack_bauer - prints cheeck if the character is lower
- *              check and fix
+ * jack_bauer - prints time table in this format: HH:MM
+ * Return: the sum of two numbers.
  */
-
 void jack_bauer(void)
 {
 int hour, minute;
 
 for (hour = 0; hour <= 23; hour++)
 {
-for (minute = 0; minute <= 23; minute++)
+for (minute = 0; minute <= 59; minute++)
 {
 _putchar(( hour / 10) + '0');
 _putchar(( hour % 10) + '0');
