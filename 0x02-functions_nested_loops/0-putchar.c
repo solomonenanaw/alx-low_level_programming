@@ -4,6 +4,7 @@
  * descriptin: prints -putchar in new line
  * Return:this program program returns zero.
  */
+
 int main(void)
 {
 _putchar('_');
@@ -15,5 +16,6 @@ _putchar('h');
 _putchar('a'); 
 _putchar('r'); 
 _putchar('\n');
+
 return (0);
 }
