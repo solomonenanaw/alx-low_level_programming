@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - cheeck if the character is lower
+ * _isalpha - cheeck if the character is lower
  * @c: the character
  * Return: 1 if character is lower
  */
