@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- * jack_bauer - cheeck if the character is lower
+ * jack_bauer - prints cheeck if the character is lower
+ *              check and fix
  */
 
 void jack_bauer(void)
