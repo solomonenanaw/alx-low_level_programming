@@ -2,13 +2,11 @@
 
 int _strlen(char *s)
 {
-int i = 1, sum = 0;
-char p1 = s[0];
+int i;
 
-while (p1 != '\0')
+for (i = 0; s[i] != '\0'; i++)
 {
-sum++;
-p1 = s[i++];
+	continue;
 }
-return (sum);
+return (1);
 }
