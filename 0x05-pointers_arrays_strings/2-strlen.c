@@ -1,7 +1,7 @@
 #include "main.h"                                                                                                                     
 /**
  * int _strlen - length of the string 
- *@s :assign string value
+ * @s :assign string value
  * return : value                                                                */                                                                                                                                   
 int _strlen(char *s)                                                            {                                                                              
 int a;     
