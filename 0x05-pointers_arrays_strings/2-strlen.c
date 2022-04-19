@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
-/**                                                                                                                                   
- * _strlen - length of the string
- * @s: returns pointer value                                                                                                          
- * return : value                                                                                                                     
- */                                                                                                                                   
+/**
+ * _strlen - assign pointer value to charater s
+ * return :assigned value
+ */
 
-int _strlen(char *s)                                                                                                                  
-{                                                                                                                                     
-int a; 
+int _strlen(char *s)
+{
+int t;
 
-a = 0;                                                                                                                                
-while (s[a] != '\0')                                                                                                                  
-{                                                                                                                                     
-a++;                                                                                                                                  }                                                                                                                                     
-return (a);                                                                                                                          
-}     
+t = 0;
+while (t[s] != '\0')
+{
+	t++;
+}
+return (t);
