@@ -9,13 +9,11 @@
 
 int _strlen(char *s)
 {
-int i;
+int i = 0;
 
-i = 0;
+char str = "My first strlen!";
 while (s[i] != '\0')
-{
-	i++;
-}
+i++;
 return (i);
 }
 
