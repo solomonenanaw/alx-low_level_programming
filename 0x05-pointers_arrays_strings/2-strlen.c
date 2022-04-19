@@ -5,7 +5,7 @@
  *
  * return: void means our answer is correct  
  */                                                                             
-int _strlen(char *s)                                                           
+int _strlen (char *s)                                                           
 {                                                      
 int a;                                                                          
 
