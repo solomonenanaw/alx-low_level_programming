@@ -6,7 +6,6 @@
 * Return:int
 */
 
-
 int _strlen(char *s)
 {
  int count = 0;
@@ -18,6 +17,6 @@ count++;
 s++;
 }
 
-return count;
+return (count);
 }
 
