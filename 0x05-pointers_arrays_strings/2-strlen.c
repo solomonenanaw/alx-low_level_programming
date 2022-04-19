@@ -9,11 +9,15 @@
 
 int _strlen(char *s)
 {
-int i = 0;
+ int count = 0;
 
-char str = "My first strlen!";
-while (s[i] != '\0')
-i++;
-return (i);
+ while(*s!='\0')
+{
+
+count++;
+p++;
+}
+
+return count;
 }
 
