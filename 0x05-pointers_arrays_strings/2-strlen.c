@@ -2,13 +2,13 @@
 
 int _strlen(char *s)
 {
-int u;
-str = "My first strlen!";
-len = _strlen(str);
-u = 0;
-while (s[u] != '\0')
+int i = 1, sum = 0;
+char p1 = s[0];
+
+while (p1 != '\0')
 {
-u++;
+sum++;
+p1 = s[i++];
 }
-return (u);
+return (sum);
 }
