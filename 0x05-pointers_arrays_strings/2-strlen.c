@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+* _strlen - length os string
+* @s:char
+* Return:int
+*/
+
+
 int _strlen(char *s)
 {
 int i;
