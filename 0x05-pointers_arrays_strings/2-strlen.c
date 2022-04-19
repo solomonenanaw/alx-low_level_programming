@@ -1,20 +1,20 @@
-#include "main.h"                                                                                                                     
-/**                                                                             
- * _strlen - length of the string                                 
- * @s: returns pointer value     
- *
- * return: void means our answer is correct  
- */                                                                             
-int _strlen(char *s)                                                           
-{                                                      
-int a;
-a  = 1;
-sum = 0;
-char p1 = s[0];                                                                   while (s[p1] != '\0')  
-{
-sum ++;
-p1 = s[a++]
-}
-return sum;
-}
+#include "main.h"
 
+/**
+ * _strlen - a function that returns the length of a string
+ *
+ * @s: char input
+ * Return: length of the input string
+ */
+
+int _strlen(char *s)
+{
+int i = 1, add = 0;
+char pl = s[0];
+while (pl != '\0')
+{
+add++;
+pl = s[i++];
+}
+return (add);
+} 
