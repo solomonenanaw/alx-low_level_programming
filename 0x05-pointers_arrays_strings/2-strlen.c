@@ -15,5 +15,5 @@ for (i = 0; s[i] != '\0'; i++)
 {
 	continue;
 }
-return (1);
+return (i);
 }
