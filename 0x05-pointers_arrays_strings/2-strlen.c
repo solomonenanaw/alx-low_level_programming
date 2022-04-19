@@ -1,8 +1,9 @@
 #include "main.h"                                                                                                                     
 /**                                                                             
  * _strlen - length of the string                                 
- * @s: returns pointer value                                                    
- * return : value                                                     
+ * @s: returns pointer value     
+ *
+ * return: void means our answer is correct  
  */                                                                             
 int _strlen(char *s)                                                           
 {                                                      
