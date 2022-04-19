@@ -6,7 +6,6 @@
  *
  * Return : void that means our answer is correct
  */
-
 int _strlen(char *s)
 {
 int u;
