@@ -9,9 +9,6 @@
  */
 
 int _putchar(char *str)
-
 {
-
-	return (write(1, &c, 1));
-
+return (write(1, &c, 1));
 }
