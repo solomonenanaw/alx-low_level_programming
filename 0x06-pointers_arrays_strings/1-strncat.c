@@ -16,10 +16,10 @@ c = 0;
 while (dest[c])
 c++;
 
-    /**
-     * src does not need to be null terminated
-     * if it contains n or more bytes
-     */
+  /**
+   * src does not need to be null terminated
+   * if it contains n or more bytes
+   */
 
 for (i = 0; i<n && src[i] != '\0'; i++)
 dest[c + i] = src[i];
