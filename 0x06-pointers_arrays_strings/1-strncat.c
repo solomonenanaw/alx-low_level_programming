@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _strncat - a function to concatenate to string
  *
@@ -11,7 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-int c,i;
+int c, i;
 
 c = 0;
 
