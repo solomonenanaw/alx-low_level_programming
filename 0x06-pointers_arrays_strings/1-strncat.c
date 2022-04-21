@@ -22,10 +22,8 @@ c++;
    */
 for (i = 0; i < n && src[i] != '\0'; i++)
 dest[c + i] = src[i];
-/** null termination dest */
-
-dest[c + i] = '\0'; 
-
+/*null terminate dest*/
+dest[c + i] = '\0';
 return (dest);
 }
 
