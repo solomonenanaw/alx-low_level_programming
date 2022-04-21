@@ -13,8 +13,8 @@ char *_strcat(char *dest, char *src)
 int l1,l2;
 int i;
 
-l1 = dest;
-l2 = src;
+l1 = strlen(dest);
+l2 = strlen(src);
 for (i = 0; i <= l2; i++)
 {
 	dest[l1] = src[i]
