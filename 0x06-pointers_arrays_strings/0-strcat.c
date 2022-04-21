@@ -13,7 +13,7 @@ for (b = 0; dest[b] != '\0'; b++)
 	for (a = 0; src[a] != '\0'; a++)
 	{
 		dest[b] = src[a];
-			x++;
+			b++;
 	}
 			dest[x] = '\0'
 				return (dest);
