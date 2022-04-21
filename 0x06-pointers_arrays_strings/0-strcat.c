@@ -15,7 +15,7 @@ len1 = *dest;
 len2 = *src;
 for (i = 0; i <= len2; i++)
 {
-	dest[len+1] = src[i]
+	dest[len1] = src[i]
 }
 
 return (dest);
