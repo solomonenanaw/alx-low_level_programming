@@ -1,6 +1,5 @@
- /**
- * _strncat - a function to concatenate 
- *        two string.
+/**
+ * *_strncat - like _strcat but it will use n bytes from src.
  *
  * @dest: poniter to the destination input
  * @src: pointer to the source input 
