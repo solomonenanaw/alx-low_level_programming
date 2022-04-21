@@ -22,7 +22,7 @@ c++;
    * src does not need to be null terminated
    * if it contains n or more bytes
    */
-for (i = 0; i<n && src[i] != '\0'; i++)
+for (i = 0; i < n && src[i] != '\0'; i++)
 dest[c + i] = src[i];
 /** null termination dest */
 dest[c + i] = '\0'; 
