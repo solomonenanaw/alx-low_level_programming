@@ -1,5 +1,6 @@
-/**
- * _strncat - a function to concatenate to string
+ /**
+ * _strncat - a function to concatenate 
+ *        two string.
  *
  * @dest: poniter to the destination input
  * @src: pointer to the source input 
