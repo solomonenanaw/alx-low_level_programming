@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * cap_string - a function that capitalize
  *       all words of a string
@@ -7,6 +6,7 @@
  *
  * Return: @s
  */
+
 char *cap_string(char *s)
 {
 int i = 0;
