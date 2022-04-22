@@ -1,12 +1,23 @@
-/**
- * _putchar - writes the character c to stdout
- * @c: the character to print
- *
- * Return : on success 1.
- * on error, -1 is returned, and error is there returned
- */
+#include "main.h"
 
-int _putchar(char c)
+/**
+ * _puts - prints a string
+ * @str: a pointer to an int tthat will be changed
+ * Return: void which means our answer is correct
+ */
+void _puts(char *str)
 {
-return (write(1, &c, 1));
+int i;
+
+i = 0;
+while (s[i] != '\0')
+{
+i++
+}
+
+for (i = i - 1; i >= 0; i--)
+{
+_putchar (s[i]);
+}
+_putchar ('\n');
 }
