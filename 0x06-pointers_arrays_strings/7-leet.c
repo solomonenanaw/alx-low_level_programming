@@ -1,10 +1,11 @@
- /*
-  * leet - a function that encodes a string into 1337
-  *
-  * @s: string input
-  *
-  * Return: @s
-  */
+/**
+ * leet - a function that encodes a string into 1337
+ *
+ * @s: string input
+ *
+ * Return: @s
+ */
+
 char *leet(char *s)
 {
 
