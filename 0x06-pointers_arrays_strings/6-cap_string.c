@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * cap_string - a function that capitalize
  *       all words of a string
