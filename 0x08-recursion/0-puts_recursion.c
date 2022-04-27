@@ -16,4 +16,7 @@ else
 _putchar('\n');
 }
 }
-
+int main(void)
+{
+return _puts_recursion();
+}
