@@ -8,16 +8,16 @@
  */
 int is_prime_number(int n)
 {
-int i = 1
+int i = 1;
 
-int check = 0
+int check = 0;
 if (i <= n)
 {
 if (n % i == 0)
 {
-check++;
+check ++;
 }
-i++;
+i ++;
 }
 if (check == 2)
 {
