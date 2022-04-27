@@ -1,17 +1,18 @@
 #include "main.h"
 /**
  *
- * prime - helper fuction to find prime
+ * is_prime_number  -  fuction to find prime
  * @n: number
- * @d: incrementor divisor
  * Return: 0 if not prime, 1 if prime
  */
-int prime(int n, int d)
+int is_prime_number(int n)
 {
-if (n % d == 0)
+int i = 0;
+if(n == 0 || n == 1)
 return (0);
-else if (prime(n, 1) < d)
-return (1);
+else if (n % i == 0)
+return (0);
 else
-return (prime(n, d + 1));
+return (1);
+}
 }
