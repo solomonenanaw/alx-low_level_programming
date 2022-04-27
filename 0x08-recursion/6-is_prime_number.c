@@ -8,12 +8,22 @@
  */
 int is_prime_number(int n)
 {
-int i = 0;
-if(n == 0 || n == 1)
-return (0);
-else if (n % i == 0)
-return (0);
-else
+int i = 1
+
+int check = 0
+if (i <= n)
+{
+if (n % i == 0)
+{
+check++;
+}
+i++;
+}
+if (check == 2)
+{
 return (1);
+else
+reurn (0);
+}
 }
 
