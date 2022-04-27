@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *
  * prime - helper fuction to find prime
@@ -5,7 +6,6 @@
  * @d: incrementor divisor
  * Return: 0 if not prime, 1 if prime
  */
-
 int prime(int n, int d)
 {
 if (n % d == 0)
