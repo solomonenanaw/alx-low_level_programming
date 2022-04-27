@@ -22,8 +22,10 @@ i ++;
 if (check == 2)
 {
 return (1);
+}
 else
-reurn (0);
+{
+return (0);
 }
 }
 
