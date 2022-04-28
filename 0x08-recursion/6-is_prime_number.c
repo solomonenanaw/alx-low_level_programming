@@ -14,9 +14,11 @@ if (i <= n / 2)
 {
 if (n % i == 0)
 {
-check = check + 1;
-}
+/*check = check + 1;*/
 i = i + 1;
+}
+/*i = i + 1; */
+check = check + 1;
 }
 if (check == 2)
 {
