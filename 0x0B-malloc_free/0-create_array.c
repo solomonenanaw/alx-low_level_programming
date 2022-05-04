@@ -15,10 +15,10 @@ unsigned int i;
 char *s;
 
 if (size == 0)
-return (Null);
+return (NULL);
 s = (char *)malloc(size * sizeof(char));
 if (s == 0)
-return (Null);
+return (NULL);
 for (i = 0; i < size; i++)
 s[i] = c;
 return (s);
