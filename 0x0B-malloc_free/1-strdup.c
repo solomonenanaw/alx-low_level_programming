@@ -22,4 +22,4 @@ for (a = 0; a <= len ; a++)
 ptr[a] = str[a];
 return (ptr);
 }
-}
+
