@@ -5,9 +5,9 @@
 /**
  * _strdup - function returns a pointer to a new string 
  * @str: string to duplicate
- * 
  * Return: NuLL for error copy string if success
  */
+
 char *_strdup(char *str)
 {
 unsigned int a, len;
