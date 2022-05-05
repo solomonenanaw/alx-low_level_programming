@@ -1,63 +1,44 @@
+#include"main.h"
 #include <stdlib.h>
-#include "main.h"
-#include <stdio.h>
+/**
+ * str_concat - is a function that concatenates two strings
+ * @s1: is the first string input
+ * @s2: is the second string input
+ * Return: a pointer that contains the two strings
+ */
+char *str_concat(char *s1, char *s2)
+{
+	char *s;
+	int size1 = 0, size2 = 0, i, j;
 
-int **alloc_grid(int width, int height)
-{
-int **array;
-int i = 0;
-int j = 0;
-int k = width;
-int p = height;
+	if (!s1)
+		s1 = "";
+	if (!s2)
+		s2 = "";
 
-if (width <= 0 || height <= 0)
-{
-return (NULL);
-}
+	while (s1[size1] != '\0')
+	{
+		size1++;
+	}
 
-while (i < p)
-{
-array[i] = malloc(sizeof(int) * width);
-if (array[i] == NULL)
-{
-for (i--; i >= 0; i--)
-free(array[i]);
-free(array);
-return (NULL);
-}
-while (j < k)
-{
-array[i][j] = 0;
-j++
-}
-return (array);
-}int **alloc-grid(int width, int height)
-{
-int **array;
-int i = 0;
-int j = 0;
-int k = width;
-int p = height;
+	while (s2[size2] != '\0')
+	{
+		size2++;
+	}
 
-if (width <= 0 || height <= 0)
-{
-return (NULL);
-}
+	s = (char *) malloc(sizeof(char) * (size1 + size2 + 1));
+	if (s == 0)
+		return (0);
 
-while (i < p)
-{
-array[i] = malloc(sizeof(int) * width);
-if (array[i] == NULL)
-{
-for (i--; i >= 0; i--)
-free(array[i]);
-free(array);
-return (NULL);
-}
-while (j < k)
-{
-array[i][j] = 0;
-j++
-}
-return (array);
+	for (i = 0; i < size1; i++)
+	{
+		s[i] = s1[i];
+	}
+
+	for (j = 0; j < size2; j++)
+	{
+		s[i] = s2[j];
+		i++;
+	}
+	return (s);
 }
