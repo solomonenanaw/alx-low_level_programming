@@ -1,10 +1,9 @@
 #include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 #include "main.h"
 /**
- * *_strdup - function returns a pointer to a new string 
- * @str: string to duplicate
+ * _strdup - function returns a pointer to a new string.
+ *  @str: string to duplicate
  * Return: NuLL for error copy string if success
  */
 
