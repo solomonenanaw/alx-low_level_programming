@@ -1,44 +1,43 @@
 #include"main.h"
 #include <stdlib.h>
 /**
- * str_concat - is a function that concatenates two strings
- * @s1: is the first string input
- * @s2: is the second string input
- * Return: a pointer that contains the two strings
+ * alloc_grid - is a function that creates 2d array
+ * @width: is the width of the array
+ * @height: is the height of the array
+ * Return: a pointer to the 2d array, or NULL if it fails
  */
-char *str_concat(char *s1, char *s2)
+int **alloc_grid(int width, int height)
 {
-	char *s;
-	int size1 = 0, size2 = 0, i, j;
+	int **arr;
+	int i, j;
 
-	if (!s1)
-		s1 = "";
-	if (!s2)
-		s2 = "";
+	if (width <= 0 || height <= 0)
+		return (NULL);
 
-	while (s1[size1] != '\0')
+	arr = malloc(sizeof(int *) * height);
+
+	if (arr == 0)
+		return (NULL);
+
+	for (i = 0; i < height; i++)
 	{
-		size1++;
+		arr[i] = (malloc(sizeof(int) * width));
+		if (arr[i] == 0)
+		{
+			while (i >= 0)
+			{
+				free(arr[i]);
+				i--;
+			}
+			free(arr);
+			return (NULL);
+		}
+		for (j = 0; j < width; j++)
+		{
+			arr[i][j] = 0;
+		}
 	}
 
-	while (s2[size2] != '\0')
-	{
-		size2++;
-	}
-
-	s = (char *) malloc(sizeof(char) * (size1 + size2 + 1));
-	if (s == 0)
-		return (0);
-
-	for (i = 0; i < size1; i++)
-	{
-		s[i] = s1[i];
-	}
-
-	for (j = 0; j < size2; j++)
-	{
-		s[i] = s2[j];
-		i++;
-	}
-	return (s);
+	return (arr);
 }
+
