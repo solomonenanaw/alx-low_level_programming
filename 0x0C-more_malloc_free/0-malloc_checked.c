@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *malloc_checked - size to alloc for malloc
- * @b: assigned value 
+ * malloc_checked - function to check malloc 
+ * @b: size of malloc
  * 
- * Return: success return pointer fail 98
+ * Return: void pointer to allocated mem
  */
 void *malloc_checked(unsigned int b)
 {
