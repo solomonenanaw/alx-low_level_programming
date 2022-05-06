@@ -9,8 +9,8 @@
  */
 void *malloc_checked(unsigned int b)
 {
-int *i;
-sizeof;
+int *a;
+unsigned int i;
 unsigned int b;
 i = (int *) malloc(sizeof(int));
 if (i == NULL)
@@ -18,6 +18,9 @@ if (i == NULL)
 return (98);
 }
 else
-b == i;
+b == a;
+for (i = 0; i < b; i++)
+{
 return (b);
+}
 }
