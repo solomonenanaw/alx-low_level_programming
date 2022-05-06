@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *malloc_checked - Returns a pointer to the allocated memory
+ * *malloc_checked - size to alloc for malloc
  * @b: assigned value 
  * 
  * Return: success return pointer fail 98
@@ -15,7 +15,7 @@ unsigned int b;
 i = (int *) malloc(sizeof(int));
 if (i == NULL)
 {
-return (98);
+exit (98);
 }
 else
 b == a;
