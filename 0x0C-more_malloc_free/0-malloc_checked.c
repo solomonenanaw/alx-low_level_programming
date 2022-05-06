@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * malloc_checked - function to check malloc 
  * @b: size of malloc
