@@ -3,16 +3,17 @@
 #include <stdlib.h>
 /**
  * *malloc_checked - Returns a pointer to the allocated memory
- *@b: assigned value 
+ * @b: assigned value 
  * 
  * Return: success return pointer fail 98
  */
 void *malloc_checked(unsigned int b)
 {
 int *i;
+sizeof;
 unsigned int b;
-i = (int *) malloc(98 *sizeof(int));
-if (malloc == NULL)
+i = (int *) malloc(sizeof(int));
+if (i == NULL)
 {
 return (98);
 }
