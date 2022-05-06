@@ -13,6 +13,6 @@ void *i;
 i = malloc(b);
 if (i == NULL)
 exit (98);
-b == i;}
+b == i;
 return (b);
 }
