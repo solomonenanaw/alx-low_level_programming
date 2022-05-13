@@ -15,7 +15,7 @@ va_list list;
 
 va_start(list, n);
 sum = 0;
-for (i = 0; i < n; i++)
+for(i = 0; i < n; i++)
 sum += va_arg(list, int);
 
 va_end(list);
