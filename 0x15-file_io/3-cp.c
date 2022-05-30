@@ -13,8 +13,8 @@ int file_from, file_to;
 ssize_t  l_read = 1024, l_write, close_file;
 char content[1024];
 if (ac != 3)
-{dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-exit(97);}
+{ dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+exit(97); }
 file_from = open(av[1], O_RDONLY);
 if (file_from == -1)
 {dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]),
