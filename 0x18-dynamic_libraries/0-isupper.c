@@ -7,7 +7,6 @@
  * Description: checks for uppercase letters
  * Return: Aways (0).
  */
-
 int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
