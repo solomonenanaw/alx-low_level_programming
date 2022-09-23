@@ -5,7 +5,7 @@
  * @ht: double pointer to the hash_node_t list
  * @key: new key to add in the node
  * @value: value to add in the node
- *      */
+ */
 void replace_value(hash_node_t **ht, const char *key, const char *value)
 {
 	hash_node_t *temp = *ht;
