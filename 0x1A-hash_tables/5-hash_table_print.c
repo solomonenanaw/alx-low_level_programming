@@ -30,8 +30,8 @@ void hash_table_print(const hash_table_t *ht)
 		return;
 
 	for (i = 0; i < ht->size; i++)
-        {
-        	if (ht->array[i] != NULL)
+	{
+		if (ht->array[i] != NULL)
 			node = ht->array[i];
 	}
 
@@ -40,8 +40,8 @@ void hash_table_print(const hash_table_t *ht)
 	if (node)
 	{
 		last_key = node->key;
-		index = key_index((const unsigned char *)last_key, ht->size);
-        	for (i = 0; i < ht->size; i++)
+		index = key_index((const unsigned char *)last_key, ht->size);	
+		for (i = 0; i < ht->size; i++)
 		{
 			print_list(ht->array[i]);
 			if (ht->array[i] && i < index)
